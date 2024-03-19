@@ -89,6 +89,7 @@ Validation:
 */
 
 // ********RoostGPT********
+
 package com.neo.controller;
 
 import org.junit.jupiter.api.Test;
@@ -117,14 +118,18 @@ public class HelloControllerIndexTest {
     }
     
     // TODO: Implement the performance test case
+    // The performance test case is pending implementation. Before running this test, the test method should be implemented and the 
+    // system under test should be optimized for performance to ensure this test can pass.
     // @Test
     // public void indexMethodPerformanceCheck() { ... }
 
     // TODO: Implement the thread safety test case
+    // The thread safety test case has not been implemented yet. It is crucial to ensure the application is safe for concurrent use before enabling this test.
     // @Test
     // public void indexMethodThreadSafety() { ... }
 
     // TODO: Implement the locale independence test case
+    // Locale independence test case is missing its implementation. The system's configuration should support different locales to pass this test.
     // @Test
     // public void indexMethodLocaleIndependence() { ... }
 }
